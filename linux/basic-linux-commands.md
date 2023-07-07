@@ -1,14 +1,10 @@
----
-description: For Ubuntu/Debian based systems.
----
+# Basic Linux Commands
 
-# Linux Info
-
-Terminal commands to know:
+_**Terminal commands to know:**_
 
 * sudo – elevates any subsequent command to administrator level
 * apt – this allows you to install, update or uninstall software from the software database
-* cd – change the current working directory&#x20;
+* cd – change the current working directory
 * ls – lists all files and folders in the current directory (ls -la to show all)
 * pwd – shows the full current directory path
 * cp – copy a file from source to destination
