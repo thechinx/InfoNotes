@@ -7,7 +7,7 @@
 * [ADS-B Info](ads-b-info/README.md)
   * [ADS-B local webpage](ads-b-info/ads-b-local-webpage.md)
 
-## Group 1
+## 🐧 Linux
 
-* [⚙ Linux Info](group-1/linux-info/README.md)
-  * [System update/upgrade](group-1/linux-info/system-update-upgrade.md)
+* [System update/upgrade](linux/system-update-upgrade/README.md)
+  * [System update/upgrade](linux/system-update-upgrade/system-update-upgrade.md)
