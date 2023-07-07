@@ -29,12 +29,10 @@ drwxr-xr-x  2 dave dave 4096 Jul  6  2021 portainer-agent
 drwxrwxr-x  2 dave dave 4096 Apr  6  2022 telegraf
 </code></pre>
 
-If the directory is owned by root ( drwxr-xr-x  3 root root) run the following command:
+If the directory is owned by root ( drwxr-xr-x  3 root root) run the following command: ( change "user" to your username)
 
 ```
 sudo chown -R user:user /opt/  
-
-* change user to your username *
 ```
 
 Next add the HTML code. You will need to change all X.X.X.X to your machines local IP address.
@@ -46,6 +44,8 @@ cd /opt/nginx/src
 ```
 nano index.html
 ```
+
+copy code below and paste. You will need to change all X.X.X.X to your machines local IP address before saving.
 
 ```
 <!DOCTYPE html>
@@ -89,5 +89,7 @@ nano index.html
 </html>
 
 ```
+
+Save the file and from a browser enter `http://your.local.ip.address/` to visit site.
 
 [^1]: 
