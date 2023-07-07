@@ -1,10 +1,12 @@
 ---
-description: This page will display links for for local ADS-B services.
+description: >-
+  Webpage used to store links for all running services on localhost for ADS-B
+  feeders.
 ---
 
 # ADS-B local webpage
 
-
+## ADS-B local webpage
 
 First check for permissions of directory by running the following commend:
 
@@ -14,7 +16,8 @@ ls -la /opt
 
 your results should show username owning the directory:
 
-<pre><code>dave@flight01:~$ ls -la /opt/
+```
+dave@flight01:~$ ls -la /opt/
 total 44
 drwxr-xr-x 10 dave dave 4096 Jul  7 17:24 .
 drwxr-xr-x 21 root root 4096 Aug  9  2022 ..
@@ -23,13 +26,13 @@ drwxrwxr-x  2 dave dave 4096 Jun  3 17:03 adsb_backup
 drwx--x--x  4 dave dave 4096 Jul  6  2021 containerd
 -rw-rw-r--  1 dave dave 1618 Oct 13  2022 docker-compose.yml
 drwxr-xr-x  3 root root 4096 Jan 23  2022 duplicati
-<a data-footnote-ref href="#user-content-fn-1">drwxr-xr-x  4 dave dave 4096 Oct 13  2022 nginx</a>
+drwxr-xr-x  4 dave dave 4096 Oct 13  2022 nginx
 drwxr-xr-x  2 dave dave 4096 Jul  6  2021 node-exporter
 drwxr-xr-x  2 dave dave 4096 Jul  6  2021 portainer-agent
 drwxrwxr-x  2 dave dave 4096 Apr  6  2022 telegraf
-</code></pre>
+```
 
-If the directory is owned by root ( drwxr-xr-x  3 root root) run the following command: ( change "user" to your username)
+If the directory is owned by root ( drwxr-xr-x 3 root root) run the following command: ( change "user" to your username)
 
 ```
 sudo chown -R user:user /opt/  
@@ -91,5 +94,3 @@ copy code below and paste. You will need to change all X.X.X.X to your machines 
 ```
 
 Save the file and from a browser enter `http://your.local.ip.address/` to visit site.
-
-[^1]: 

@@ -1,8 +1,8 @@
-# Nginx webserver
+# NGINX Webserver
+
+## Nginx webserver
 
 Docker compose code to spin up an nginx webserver.
-
-
 
 ```
 cd /opt
