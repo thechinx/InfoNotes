@@ -12,11 +12,17 @@ cd /opt
 nano docker-compose.yml
 ```
 
+This should be at the top of the docker-compose.yml file.
+
 ```
----
-version: '3'
+version: '3.8'
 services:
 
+```
+
+Add the following code for the nginx container.
+
+```
   nginx:
     image: nginx
     container_name: nginx
@@ -31,6 +37,8 @@ services:
     restart: always
 
 ```
+
+Save and then run the following command to spin up the container.
 
 ```
 docker-compose up -d
